@@ -1,6 +1,6 @@
 # compiled output
-/bundles
-/lib
+/dist
+/out-tsc
 /test/build
 
 # dependencies

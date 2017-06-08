@@ -1,32 +1,21 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "target": "es5",
     "module": "es2015",
     "moduleResolution": "node",
-    "noUnusedLocals": false,
-    "noUnusedParameters": true,
-    "outDir": "lib",
     "sourceMap": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types/node",
-      "node_modules/@types/jasmine"
+    "inlineSources": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": [
+      "es2015",
+      "dom"
     ]
-  },
-  "angularCompilerOptions": {
-    "skipTemplateCodegen": true
-  },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "src/**/*.spec.*"
-  ]
+  }
 }

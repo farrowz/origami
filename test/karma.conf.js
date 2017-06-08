@@ -33,10 +33,10 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
     autoWatch: false,
     browsers: ['Chrome'],
-    browserNoActivityTimeout: 4 * 60 * 1000,
-    browserDisconnectTimeout: 10000,
-    browserDisconnectTolerance: 2,
-    captureTimeout: 4 * 60 * 1000,
+    browserNoActivityTimeout: 60 * 1000,
+    browserDisconnectTimeout: 10 * 1000,
+    browserDisconnectTolerance: 3,
+    captureTimeout: 60 * 1000,
     singleRun: true
   };
 

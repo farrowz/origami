@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/es6/",
+    "target": "es6",
+    "rootDir": ".",
+    "baseUrl": "",
+    "types": []
+  },
+  "files": [
+    "./index.ts",
+    "./typings.d.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "origami.js",
+    "flatModuleId": "@codebakery/origami",
+    "genDir": "../out-tsc/lib-gen-dir/"
+  }
+}
